@@ -2,21 +2,18 @@
 
 # TractionAI
 
-Multistage system for automatic detection of railroad infrastructure elements based on machine learning solutions.
+## Overview
 
+**TractionAI** is an advanced, multifunctional system designed for the automatic inspection of railroad infrastructure.
 
----
-
-
-## Main functionality:
+### Key Features:
 
 * **multi-stage approach** to the task of object detection,
-* number of model **error prevention mechanisms**, such as dynamic object heat map, object grouping, ROI masking, 
+* number of model **error prevention mechanisms**, such as dynamic confidence score weighting array, object grouping, ROI masking, 
 * **automatic dataset creation** with custom auto-labeling solution and CVAT integration,
-* system for **automatic validation of a multi-stage model**, determining standard metrics (AP, AP50, AP75) and mean inference times,
+* system for **automatic validation of a multi-stage model**, determining standard metrics (AP, AP50, F1) and mean inference times,
 * optimized training of ML models,
 * integration with **DronOnLine** for convenient viewing of data from a web browser.
-
 
 <div style="display:grid; gap:10px; grid-template-columns:33% 33% 33%; width:100%; justify-content: center; align-items: center">
     <img src="ReadmeImages/examples/example (1).jpg" style="object-fit:contain; max-height:300px"></th>
@@ -24,11 +21,9 @@ Multistage system for automatic detection of railroad infrastructure elements ba
     <img src="ReadmeImages/examples/example (3).jpg" style="object-fit:contain; max-height:300px"></th>
 </div>
 
-
 ---
 
-
-## Organisations involved in the project development
+## Collaborators
 
 <div align=center><table style="background-color:white">
   <tr>
